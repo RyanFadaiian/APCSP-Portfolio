@@ -1,0 +1,9 @@
+img {
+    animation-name: image;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes image {
+    from {width: 200px; opacity: 0;}
+    to {width: 450px; margin-left: 0px;}
+}
